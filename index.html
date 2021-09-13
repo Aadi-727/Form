@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Modern Form</title>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Left -->
+			<div class="left">
+				<h3 class="main-head">
+					Basic Information <span><i class="fas fa-info"></i></span>
+				</h3>
+				<div class="box">
+					<div class="img-container"></div>
+					<button class="replace">Replace Image</button>
+				</div>
+			</div>
+			<!-- Right -->
+			<div class="right">
+				<form class="form">
+					<div class="name-1">
+						<label for="first-name">First Name</label>
+						<input
+							placeholder="First name"
+							type="text"
+							name=""
+							id="first-name"
+						/>
+					</div>
+					<div class="name-2">
+						<label for="last-name">Last Name</label>
+						<input placeholder="Last name" type="text" name="" id="last-name" />
+					</div>
+					<div class="occupation">
+						<label for="occupation">Occupation</label>
+						<input
+							placeholder="Occupation"
+							type="text"
+							name=""
+							id="occupation"
+						/>
+					</div>
+
+					<div class="company">
+						<label for="company">Company</label>
+						<input
+							type="text"
+							placeholder="Company name"
+							name=""
+							id="company"
+						/>
+					</div>
+
+					<div class="location">
+						<label for="location">Location</label>
+						<div class="select">
+							<select name="location" id="location">
+								<option value="">Norway</option>
+								<option value="">Esse</option>
+								<option value="">Maiores</option>
+								<option value="">Sed</option>
+								<option value="">Nulla</option>
+								<option value="">Eligendi</option>
+								<option value="">Dolore</option>
+								<option value="">Distinctio</option>
+								<option value="">Aut</option>
+								<option value="">Voluptatum</option>
+							</select>
+						</div>
+					</div>
+					<div class="region">
+						<label for="region">Region</label>
+						<input placeholder="Region" type="text" name="" id="region" />
+					</div>
+					<div class="buttons">
+						<input type="button" value="Cancel" class="btn btn-cancel" />
+						<input
+							data-submit
+							type="submit"
+							value="Save Changes"
+							class="btn submit"
+						/>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
